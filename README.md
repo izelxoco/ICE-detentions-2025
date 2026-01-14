@@ -11,9 +11,7 @@ Name of source: The Deportation Data Project
 The spreadsheet contains, among others, the following columns relevant to the analysis:
 - "stay_book_in_date_time" - The "detention_stays.xlsx" spreasheet, which contains detentions from September 2023 to mid-October 2025, was processed and labeled by The Deportation Data Project. This column indicates when a detainee was inputted into ICE's system for detainment.
 
-- "Stay Book In Date" — In the raw datasets for 2016, which contain detentions from Fiscal Year 2016 and Fiscal Year 2017, this label was used to indicate when a detainee was inputted into ICE's system for detainment. It is similar as the "stay_book_in_date_time" column, the only difference is that it does not include a timestamp.
-
-- "year" - This column derived the year from the two date columns mentioned above to ensure only 2016 and 2025 detentions were included in the analysis.
+- "year" - This column derived the year from the date column mentioned above to ensure only 2025 detentions were included in the analysis.
 
 ## Methodology
 ### The notebook part_A.ipynb focuses on 2025 detentions. It performs the following analyses:
